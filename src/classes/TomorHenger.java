@@ -30,7 +30,7 @@ public class TomorHenger extends Henger{
     
     public double suly(){
         
-        double suly = this.terfogat() * this.fajSuly;
+        double suly = super.terfogat() * this.fajSuly;
         return suly;
     }
 
