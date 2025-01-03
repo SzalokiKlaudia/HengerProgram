@@ -9,10 +9,11 @@ package main;
  * @author Klau
  */
 public class HengerProgram {
+    
+    
+    
+    
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
     }
