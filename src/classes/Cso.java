@@ -29,7 +29,8 @@ public class Cso extends TomorHenger{
     }
     
     @Override
-    public double terfogat(){
+    public double terfogat(){//ki kell számolni a kis kör sugarát, úgy hogy kivonjuk a külső kör sugarából a falvastagságot
+                                //íg kaptuk meg a kis kör sugarát, majd ez alapján kiszámoljuk a csőnek a térfogatát
         
         double sugarBelso = super.getSugar() - this.falvastagsag;
         double belsoSugarTerfogat = sugarBelso * sugarBelso * Math.PI * super.getMagassag();
